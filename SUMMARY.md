@@ -4,6 +4,6 @@ The dataset consists of 270 images with 10214 labeled objects belonging to 1 sin
 
 Images in the iSAID Airplane dataset have pixel-level semantic segmentation annotations. Due to the nature of the semantic segmentation task, it can be automatically transformed into an object detection (bounding boxes for every object) task. All images are labeled (i.e. with annotations). There is 1 split in the dataset: *ds* (270 images). The dataset was released in 2023.
 
-Here are the visualized examples for each of the 1 classes:
+Here is the visualized example grid with annotations:
 
-[Dataset classes](https://github.com/dataset-ninja/isaid-airplane/raw/main/visualizations/classes_preview.webm)
+<img src="https://github.com/dataset-ninja/isaid-airplane/raw/main/visualizations/horizontal_grid.png">
