@@ -15,17 +15,16 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "iSAID Airplane Grayscale"
 PROJECT_NAME_FULL: str = "iSAID Airplane Grayscale"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_NC_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
-    Industry.Aviation(),
-    Industry.Security(),
-    Industry.Surveillance(),
+    Industry.Aviation()
 ]
-CATEGORY: Category = Category.Aerial(extra=Category.Surveillance(), is_original_dataset=False)
+CATEGORY: Category = Category.Aerial(is_original_dataset=False)
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
@@ -103,6 +102,7 @@ def get_settings():
     settings = {
         "project_name": PROJECT_NAME,
         "license": LICENSE,
+        "hide_dataset": HIDE_DATASET,
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,
