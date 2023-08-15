@@ -1,19 +1,18 @@
-Dataset **iSAID Airplane Grayscale** can be downloaded in Supervisely format:
+Dataset **iSAID Airplane Grayscale** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/3/P/rf/Zxgort8MxLShf6pd2KgFGKGJT6iCqYGiByQWTfOVhJj8qmLKewASNb9OGAKKfRTOWkOZoCxMCWztLjolWsEpidkvWIjb4x7u2e06MHYtWnwIuSLNylauTPjieSRv.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/I/A/yx/nRnp6IJFT6sSHWCKDb48D7yo6hm4hPt4BsBcaQtWjjdwEyLOSUH0ZaoPvGJDj8ZhqcEIR5lj5Zj5UTKllT5wB7A3M9BFO1R4o82PFMdivEw7bUYYPddcf9QVL8Vu.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
-
-```bash
+``` bash
 pip install --upgrade dataset-tools
 ```
 
 ... using following python code:
-
-```python
+``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='iSAID Airplane Grayscale', dst_path='~/dtools/datasets/iSAID Airplane Grayscale.tar')
+dtools.download(dataset='iSAID Airplane Grayscale', dst_dir='~/dataset-ninja/')
 ```
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
 
-The data in original format can be [downloaded here](https://www.kaggle.com/datasets/romanrybalko/isaid-plane-gray/download?datasetVersionNumber=1)
+The data in original format can be [downloaded here](https://www.kaggle.com/datasets/romanrybalko/isaid-plane-gray/download?datasetVersionNumber=1).
