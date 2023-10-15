@@ -1,3 +1,3 @@
 # iSAID Airplane Grayscale
 
-iSAID Airplane Grayscale is a dataset for semantic segmentation tasks.
+iSAID Airplane Grayscale is a dataset for semantic segmentation task.
