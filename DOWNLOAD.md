@@ -1,6 +1,6 @@
 Dataset **iSAID Airplane Grayscale** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/V/L/u8/04JYEt14GNftDPJFDbFET2EG92ovJ5b3pj6pvE07bZqAPfoEwd568bIGMKBFVbIHJkS6oLHGFnEe1IMLWQyYIp8ee4YqkKGNYFfqgUTyHsRAp0wf8iHvjz8ahb15.tar)
+ [Download](Set 'HIDE_DATASET=False' to generate download link)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
